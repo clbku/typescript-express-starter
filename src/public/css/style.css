@@ -1,0 +1,81 @@
+.circle {
+    border: 2px solid #007bff;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    vertical-align: middle;
+    text-align: center;
+    padding-top: 33px;
+    font-size: 30px;
+    margin: 30px auto;
+}
+
+.circle:hover {
+    background: #007bff;
+    color: white
+}
+
+.circle:hover a {
+    color: white;
+}
+
+.right-boder {
+    border-right: 1px solid #007bff;
+}
+
+.subtitle {
+    color: gray;
+    font-style: italic;
+    font-size: 13px;
+}
+
+.red {
+    color: red;
+}
+
+.white {
+    color: white;
+}
+
+.blue {
+    color: #007bff;
+}
+
+.border-radius-none {
+    border-radius: 0;
+}
+
+label input[type="checkbox"] {
+    color: #dddfe6;
+    font-family: "fontAwesome";
+    line-height: 1;
+    width: 1em;
+    display: inline-block;
+    margin-right: 5px;
+}
+label input[type="checkbox"]:checked {
+    content: "";
+    color: #fe4365;
+    animation: tick 150ms ease-in;
+}
+
+@keyframes tick {
+    0% {
+      transform: scale(0);
+    }
+    90% {
+      transform: scale(1.3);
+    }
+    100% {
+      transform: scale(1);
+    }
+}
+
+#wrapper{
+    width:100%; 
+}
+
+.bg-white {
+    background: #ffffff;
+    border: none;
+}
